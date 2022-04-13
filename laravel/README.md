@@ -9,6 +9,10 @@ Please check the official laravel installation guide for server requirements bef
 Clone the repository
 
     git clone git@github.com:ljubisaivanovic/test.git
+    
+Switch to the repo folder
+
+    cd test/laravel    
 
 Install all the dependencies using composer
 
@@ -17,6 +21,10 @@ Install all the dependencies using composer
 Copy the example env file and make the required configuration changes in the .env file
 
     cp .env.example .env
+    
+Generate a new application key
+
+    php artisan key:generate
 
 Run the database migrations with seed(**Set the database connection in .env before migrating**)
 
