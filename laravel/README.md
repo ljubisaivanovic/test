@@ -12,7 +12,7 @@ Clone the repository
 
 Install all the dependencies using composer
 
-composer install
+    composer install
 
 Copy the example env file and make the required configuration changes in the .env file
 
